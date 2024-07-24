@@ -59,6 +59,296 @@ class S {
       args: [],
     );
   }
+
+  /// `Enjoy Listening To Music`
+  String get onboardingPageHeader {
+    return Intl.message(
+      'Enjoy Listening To Music',
+      name: 'onboardingPageHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.`
+  String get onboardingPageBody {
+    return Intl.message(
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.',
+      name: 'onboardingPageBody',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get onboardingPageGetStarted {
+    return Intl.message(
+      'Get Started',
+      name: 'onboardingPageGetStarted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dark Mode`
+  String get themePageDarkMode {
+    return Intl.message(
+      'Dark Mode',
+      name: 'themePageDarkMode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Light Mode`
+  String get themePageLightMode {
+    return Intl.message(
+      'Light Mode',
+      name: 'themePageLightMode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Choose Mode`
+  String get themePageChooseMode {
+    return Intl.message(
+      'Choose Mode',
+      name: 'themePageChooseMode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue`
+  String get themePageContinue {
+    return Intl.message(
+      'Continue',
+      name: 'themePageContinue',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enjoy Listening To Music`
+  String get authPageHeader {
+    return Intl.message(
+      'Enjoy Listening To Music',
+      name: 'authPageHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Spotify is a proprietary Swedish audio streaming and media services provider`
+  String get authPageBody {
+    return Intl.message(
+      'Spotify is a proprietary Swedish audio streaming and media services provider',
+      name: 'authPageBody',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register`
+  String get authPageRegister {
+    return Intl.message(
+      'Register',
+      name: 'authPageRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign in`
+  String get authPageSignIn {
+    return Intl.message(
+      'Sign in',
+      name: 'authPageSignIn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In`
+  String get signInPageHeader {
+    return Intl.message(
+      'Sign In',
+      name: 'signInPageHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `If You Need Any Support`
+  String get signInPageSupportLinkPrefix {
+    return Intl.message(
+      'If You Need Any Support',
+      name: 'signInPageSupportLinkPrefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Click Here`
+  String get signInPageSupportLink {
+    return Intl.message(
+      'Click Here',
+      name: 'signInPageSupportLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In`
+  String get signInPageSignInButton {
+    return Intl.message(
+      'Sign In',
+      name: 'signInPageSignInButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Username Or Email`
+  String get signInPageUsernamePlaceholder {
+    return Intl.message(
+      'Enter Username Or Email',
+      name: 'signInPageUsernamePlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get signInPagePasswordPlaceholder {
+    return Intl.message(
+      'Password',
+      name: 'signInPagePasswordPlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Your Password?`
+  String get signInPagePasswordRecovery {
+    return Intl.message(
+      'Forgot Your Password?',
+      name: 'signInPagePasswordRecovery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Not A Member?`
+  String get signInPageRegisterLinkPrefix {
+    return Intl.message(
+      'Not A Member?',
+      name: 'signInPageRegisterLinkPrefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register Now`
+  String get signInPageRegisterLink {
+    return Intl.message(
+      'Register Now',
+      name: 'signInPageRegisterLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register`
+  String get registerPageHeader {
+    return Intl.message(
+      'Register',
+      name: 'registerPageHeader',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `If You Need Any Support`
+  String get registerPageSupportLinkPrefix {
+    return Intl.message(
+      'If You Need Any Support',
+      name: 'registerPageSupportLinkPrefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Click Here`
+  String get registerPageSupportLink {
+    return Intl.message(
+      'Click Here',
+      name: 'registerPageSupportLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get registerPageFullNamePlaceholder {
+    return Intl.message(
+      'Full Name',
+      name: 'registerPageFullNamePlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Email`
+  String get registerPageEmailPlaceholder {
+    return Intl.message(
+      'Enter Email',
+      name: 'registerPageEmailPlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get registerPagePasswordPlaceholder {
+    return Intl.message(
+      'Password',
+      name: 'registerPagePasswordPlaceholder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Account`
+  String get registerPageCreateAccountButton {
+    return Intl.message(
+      'Create Account',
+      name: 'registerPageCreateAccountButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Do you have any account?`
+  String get registerPageSignInLinkPrefix {
+    return Intl.message(
+      'Do you have any account?',
+      name: 'registerPageSignInLinkPrefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign In`
+  String get registerPageSignInLink {
+    return Intl.message(
+      'Sign In',
+      name: 'registerPageSignInLink',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
