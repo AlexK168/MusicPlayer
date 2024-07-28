@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:go_router/go_router.dart';
 import 'package:music_player/gen/assets.gen.dart';
 import 'package:music_player/gen/fonts.gen.dart';
@@ -9,6 +11,9 @@ class OnboardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SchedulerBinding.instance.addPostFrameCallback((_) {
+      FlutterNativeSplash.remove();
+    });
     return Material(
       child: Stack(
         fit: StackFit.expand,

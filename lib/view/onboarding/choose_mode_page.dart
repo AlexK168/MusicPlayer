@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:music_player/gen/assets.gen.dart';
 import 'package:music_player/gen/fonts.gen.dart';
 import 'package:music_player/gen/l10n.dart';
+import 'package:music_player/provider/onboarding_notifier.dart';
 import 'package:music_player/view/onboarding/widgets/mode_button.dart';
 
-class ChooseModePage extends StatelessWidget {
+class ChooseModePage extends ConsumerWidget {
   const ChooseModePage({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Material(
       child: Stack(
         fit: StackFit.expand,
@@ -72,7 +75,12 @@ class ChooseModePage extends StatelessWidget {
                       decoration: TextDecoration.none,
                     ),
                   ),
-                  onPressed: () => {},
+                  onPressed: () {
+                    ref
+                        .read(onboardingNotifierProvider.notifier)
+                        .passOnboarding();
+                    context.go('/auth');
+                  },
                 ),
               ],
             ),
