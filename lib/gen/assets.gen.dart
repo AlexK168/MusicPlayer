@@ -11,8 +11,27 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/services.dart';
 
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/apple.svg
+  SvgGenImage get apple => const SvgGenImage('assets/icons/apple.svg');
+
+  /// File path: assets/icons/arrow_left.svg
+  SvgGenImage get arrowLeft => const SvgGenImage('assets/icons/arrow_left.svg');
+
+  /// File path: assets/icons/google.svg
+  SvgGenImage get google => const SvgGenImage('assets/icons/google.svg');
+
+  /// List of all assets
+  List<SvgGenImage> get values => [apple, arrowLeft, google];
+}
+
 class $AssetsPngGen {
   const $AssetsPngGen();
+
+  /// File path: assets/png/auth_page.png
+  AssetGenImage get authPage => const AssetGenImage('assets/png/auth_page.png');
 
   /// File path: assets/png/choose_mode.png
   AssetGenImage get chooseMode =>
@@ -23,11 +42,14 @@ class $AssetsPngGen {
       const AssetGenImage('assets/png/onboarding_1.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [chooseMode, onboarding1];
+  List<AssetGenImage> get values => [authPage, chooseMode, onboarding1];
 }
 
 class $AssetsSvgGen {
   const $AssetsSvgGen();
+
+  /// File path: assets/svg/logo.svg
+  SvgGenImage get logo => const SvgGenImage('assets/svg/logo.svg');
 
   /// File path: assets/svg/moon.svg
   SvgGenImage get moon => const SvgGenImage('assets/svg/moon.svg');
@@ -36,12 +58,13 @@ class $AssetsSvgGen {
   SvgGenImage get sun => const SvgGenImage('assets/svg/sun.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [moon, sun];
+  List<SvgGenImage> get values => [logo, moon, sun];
 }
 
 class Assets {
   Assets._();
 
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsPngGen png = $AssetsPngGen();
   static const $AssetsSvgGen svg = $AssetsSvgGen();
 }

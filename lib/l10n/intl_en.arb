@@ -1,4 +1,5 @@
 {
+  "@@locale": "en",
   "appName": "BooPlayer",
 
   "onboardingPageHeader": "Enjoy Listening To Music",
@@ -16,8 +17,6 @@
   "authPageSignIn": "Sign in",
 
   "signInPageHeader": "Sign In",
-  "signInPageSupportLinkPrefix": "If You Need Any Support",
-  "signInPageSupportLink": "Click Here",
   "signInPageSignInButton": "Sign In",
   "signInPageUsernamePlaceholder": "Enter Username Or Email",
   "signInPagePasswordPlaceholder": "Password",
@@ -33,5 +32,9 @@
   "registerPagePasswordPlaceholder": "Password",
   "registerPageCreateAccountButton": "Create Account",
   "registerPageSignInLinkPrefix": "Do you have any account?",
-  "registerPageSignInLink": "Sign In"
+  "registerPageSignInLink": "Sign In",
+
+  "or": "Or",
+  "supportLinkPrefix": "If You Need Any Support",
+  "supportLink": "Click Here"
 }

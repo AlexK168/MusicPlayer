@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:music_player/router/redirect_notifier.dart';
 import 'package:music_player/view/auth/auth_page.dart';
+import 'package:music_player/view/auth/register_page.dart';
+import 'package:music_player/view/auth/sign_in_page.dart';
 import 'package:music_player/view/home/home_page.dart';
 import 'package:music_player/view/onboarding/choose_mode_page.dart';
 import 'package:music_player/view/onboarding/onboarding_page.dart';
@@ -39,6 +41,14 @@ GoRouter router(RouterRef ref) {
       GoRoute(
         path: '/splash',
         builder: (context, state) => const SizedBox(),
+      ),
+      GoRoute(
+        path: '/sign_in',
+        builder: (context, state) => const SignInPage(),
+      ),
+      GoRoute(
+        path: '/register',
+        builder: (context, state) => const RegisterPage(),
       ),
     ],
     redirect: (context, state) {

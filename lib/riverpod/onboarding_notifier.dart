@@ -23,13 +23,4 @@ class OnboardingNotifier extends _$OnboardingNotifier {
       state = const AsyncData(true);
     }
   }
-
-  // used for testing
-  void unPassOnboarding() async {
-    await _box.put(_key, false);
-    // final onboardingAlreadyPassed = await future;
-    // if (!onboardingAlreadyPassed) {
-    //   state = const AsyncData(true);
-    // }
-  }
 }

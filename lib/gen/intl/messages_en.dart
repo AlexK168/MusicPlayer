@@ -35,6 +35,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Get Started"),
         "onboardingPageHeader":
             MessageLookupByLibrary.simpleMessage("Enjoy Listening To Music"),
+        "or": MessageLookupByLibrary.simpleMessage("Or"),
         "registerPageCreateAccountButton":
             MessageLookupByLibrary.simpleMessage("Create Account"),
         "registerPageEmailPlaceholder":
@@ -63,12 +64,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Not A Member?"),
         "signInPageSignInButton":
             MessageLookupByLibrary.simpleMessage("Sign In"),
-        "signInPageSupportLink":
-            MessageLookupByLibrary.simpleMessage("Click Here"),
-        "signInPageSupportLinkPrefix":
-            MessageLookupByLibrary.simpleMessage("If You Need Any Support"),
         "signInPageUsernamePlaceholder":
             MessageLookupByLibrary.simpleMessage("Enter Username Or Email"),
+        "supportLink": MessageLookupByLibrary.simpleMessage("Click Here"),
+        "supportLinkPrefix":
+            MessageLookupByLibrary.simpleMessage("If You Need Any Support"),
         "themePageChooseMode":
             MessageLookupByLibrary.simpleMessage("Choose Mode"),
         "themePageContinue": MessageLookupByLibrary.simpleMessage("Continue"),

@@ -180,26 +180,6 @@ class S {
     );
   }
 
-  /// `If You Need Any Support`
-  String get signInPageSupportLinkPrefix {
-    return Intl.message(
-      'If You Need Any Support',
-      name: 'signInPageSupportLinkPrefix',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Click Here`
-  String get signInPageSupportLink {
-    return Intl.message(
-      'Click Here',
-      name: 'signInPageSupportLink',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Sign In`
   String get signInPageSignInButton {
     return Intl.message(
@@ -345,6 +325,36 @@ class S {
     return Intl.message(
       'Sign In',
       name: 'registerPageSignInLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message(
+      'Or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `If You Need Any Support`
+  String get supportLinkPrefix {
+    return Intl.message(
+      'If You Need Any Support',
+      name: 'supportLinkPrefix',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Click Here`
+  String get supportLink {
+    return Intl.message(
+      'Click Here',
+      name: 'supportLink',
       desc: '',
       args: [],
     );
