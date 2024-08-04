@@ -29,6 +29,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enjoy Listening To Music"),
         "authPageRegister": MessageLookupByLibrary.simpleMessage("Register"),
         "authPageSignIn": MessageLookupByLibrary.simpleMessage("Sign in"),
+        "emailEmpty": MessageLookupByLibrary.simpleMessage("Email is empty"),
+        "emailInvalid":
+            MessageLookupByLibrary.simpleMessage("Email is invalid"),
+        "emailTaken": MessageLookupByLibrary.simpleMessage("Email is taken"),
         "onboardingPageBody": MessageLookupByLibrary.simpleMessage(
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam."),
         "onboardingPageGetStarted":
@@ -36,6 +40,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "onboardingPageHeader":
             MessageLookupByLibrary.simpleMessage("Enjoy Listening To Music"),
         "or": MessageLookupByLibrary.simpleMessage("Or"),
+        "passwordEmpty":
+            MessageLookupByLibrary.simpleMessage("Password is empty"),
+        "passwordNoDigits":
+            MessageLookupByLibrary.simpleMessage("Password has no digits"),
+        "passwordNoSpecChars": MessageLookupByLibrary.simpleMessage(
+            "Password has no special characters"),
+        "passwordTooLong":
+            MessageLookupByLibrary.simpleMessage("Password is too long"),
+        "passwordTooShort":
+            MessageLookupByLibrary.simpleMessage("Password is too short"),
         "registerPageCreateAccountButton":
             MessageLookupByLibrary.simpleMessage("Create Account"),
         "registerPageEmailPlaceholder":
@@ -65,7 +79,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signInPageSignInButton":
             MessageLookupByLibrary.simpleMessage("Sign In"),
         "signInPageUsernamePlaceholder":
-            MessageLookupByLibrary.simpleMessage("Enter Username Or Email"),
+            MessageLookupByLibrary.simpleMessage("Enter Username"),
         "supportLink": MessageLookupByLibrary.simpleMessage("Click Here"),
         "supportLinkPrefix":
             MessageLookupByLibrary.simpleMessage("If You Need Any Support"),
@@ -73,6 +87,15 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Choose Mode"),
         "themePageContinue": MessageLookupByLibrary.simpleMessage("Continue"),
         "themePageDarkMode": MessageLookupByLibrary.simpleMessage("Dark Mode"),
-        "themePageLightMode": MessageLookupByLibrary.simpleMessage("Light Mode")
+        "themePageLightMode":
+            MessageLookupByLibrary.simpleMessage("Light Mode"),
+        "usernameEmpty":
+            MessageLookupByLibrary.simpleMessage("Username is empty"),
+        "usernameTaken":
+            MessageLookupByLibrary.simpleMessage("Username is taken"),
+        "usernameTooLong":
+            MessageLookupByLibrary.simpleMessage("Username is too long"),
+        "usernameTooShort":
+            MessageLookupByLibrary.simpleMessage("Username is too short")
       };
 }

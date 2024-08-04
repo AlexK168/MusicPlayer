@@ -190,10 +190,10 @@ class S {
     );
   }
 
-  /// `Enter Username Or Email`
+  /// `Enter Username`
   String get signInPageUsernamePlaceholder {
     return Intl.message(
-      'Enter Username Or Email',
+      'Enter Username',
       name: 'signInPageUsernamePlaceholder',
       desc: '',
       args: [],
@@ -355,6 +355,126 @@ class S {
     return Intl.message(
       'Click Here',
       name: 'supportLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email is invalid`
+  String get emailInvalid {
+    return Intl.message(
+      'Email is invalid',
+      name: 'emailInvalid',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email is empty`
+  String get emailEmpty {
+    return Intl.message(
+      'Email is empty',
+      name: 'emailEmpty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email is taken`
+  String get emailTaken {
+    return Intl.message(
+      'Email is taken',
+      name: 'emailTaken',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username is empty`
+  String get usernameEmpty {
+    return Intl.message(
+      'Username is empty',
+      name: 'usernameEmpty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username is taken`
+  String get usernameTaken {
+    return Intl.message(
+      'Username is taken',
+      name: 'usernameTaken',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username is too short`
+  String get usernameTooShort {
+    return Intl.message(
+      'Username is too short',
+      name: 'usernameTooShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username is too long`
+  String get usernameTooLong {
+    return Intl.message(
+      'Username is too long',
+      name: 'usernameTooLong',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password is empty`
+  String get passwordEmpty {
+    return Intl.message(
+      'Password is empty',
+      name: 'passwordEmpty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password has no special characters`
+  String get passwordNoSpecChars {
+    return Intl.message(
+      'Password has no special characters',
+      name: 'passwordNoSpecChars',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password has no digits`
+  String get passwordNoDigits {
+    return Intl.message(
+      'Password has no digits',
+      name: 'passwordNoDigits',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password is too short`
+  String get passwordTooShort {
+    return Intl.message(
+      'Password is too short',
+      name: 'passwordTooShort',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password is too long`
+  String get passwordTooLong {
+    return Intl.message(
+      'Password is too long',
+      name: 'passwordTooLong',
       desc: '',
       args: [],
     );

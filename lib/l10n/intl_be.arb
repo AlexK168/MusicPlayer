@@ -17,10 +17,8 @@
   "authPageSignIn": "Sign in",
 
   "signInPageHeader": "Sign In",
-  "signInPageSupportLinkPrefix": "If You Need Any Support",
-  "signInPageSupportLink": "Click Here",
   "signInPageSignInButton": "Sign In",
-  "signInPageUsernamePlaceholder": "Enter Username Or Email",
+  "signInPageUsernamePlaceholder": "Enter Username",
   "signInPagePasswordPlaceholder": "Password",
   "signInPagePasswordRecovery": "Forgot Your Password?",
   "signInPageRegisterLinkPrefix": "Not A Member?",
@@ -38,5 +36,20 @@
 
   "or": "Or",
   "supportLinkPrefix": "If You Need Any Support",
-  "supportLink": "Click Here"
+  "supportLink": "Click Here",
+
+  "emailInvalid": "Email is invalid",
+  "emailEmpty": "Email is empty",
+  "emailTaken": "Email is taken",
+
+  "usernameEmpty": "Username is empty",
+  "usernameTaken": "Username is taken",
+  "usernameTooShort": "Username is too short",
+  "usernameTooLong": "Username is too long",
+
+  "passwordEmpty": "Password is empty",
+  "passwordNoSpecChars": "Password has no special characters",
+  "passwordNoDigits": "Password has no digits",
+  "passwordTooShort": "Password is too short",
+  "passwordTooLong": "Password is too long"
 }

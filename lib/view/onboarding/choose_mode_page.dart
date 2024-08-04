@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:music_player/gen/assets.gen.dart';
 import 'package:music_player/gen/fonts.gen.dart';
 import 'package:music_player/gen/l10n.dart';
-import 'package:music_player/provider/onboarding_notifier.dart';
+import 'package:music_player/riverpod/onboarding_notifier.dart';
 import 'package:music_player/view/onboarding/widgets/mode_button.dart';
 
 class ChooseModePage extends ConsumerWidget {
